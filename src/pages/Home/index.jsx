@@ -15,6 +15,7 @@ export function Home() {
         minute: "numeric",
         second: "numeric",
       }),
+      
     };
 
     setStudents((prevState) => [...prevState, newStudent]);
